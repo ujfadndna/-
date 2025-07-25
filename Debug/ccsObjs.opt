@@ -1,0 +1,16 @@
+"./main.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./Drivers/IMU660RB/Fusion/FusionAhrs.o"
+"./Drivers/IMU660RB/Fusion/FusionCompass.o"
+"./Drivers/IMU660RB/Fusion/FusionOffset.o"
+"./Drivers/IMU660RB/imu660rb.o"
+"./Drivers/IMU660RB/lsm6dsr_reg.o"
+"./Drivers/MSPM0/clock.o"
+"./Drivers/MSPM0/interrupt.o"
+"./Drivers/Motor/motor.o"
+"./Drivers/PID/pid.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
+-l"C:/ti/ccstheia151/mspm0_sdk_2_05_01_00/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a"
